@@ -1,0 +1,2 @@
+ifconfig eth1 200.100.10.6/30
+ifconfig eth0 192.168.20.0/24
