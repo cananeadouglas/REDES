@@ -1,2 +1,6 @@
-ifconfig eth0 192.168.10.1/24 up #ip 10.0 esta reservado
-ifconfig eth1 200.100.10.2/30 up
+#configuração IP
+ifconfig eth0 192.168.10.1/24
+ifconfig eth1 200.100.10.1/30
+
+#configuração rotas
+route add default gw 200.100.10.2

@@ -1,1 +1,6 @@
-ifconfig eth0 192.168.20.2/24 up
+#configuração de IP
+ifconfig eth0 192.168.20.2/24
+
+#configuração de Rotas
+route add default gw 192.168.20.1
+
