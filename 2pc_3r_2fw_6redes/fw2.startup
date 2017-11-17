@@ -1,4 +1,4 @@
-ifconfig eth0 10.1.1.30/24
+ifconfig eth0 10.1.2.30/24
 ifconfig eth1 192.168.10.6/30
 
 route add default gw 192.168.10.5

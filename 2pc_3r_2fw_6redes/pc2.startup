@@ -1,2 +1,2 @@
-ifconfig eth0 10.1.1.40/24
-route add default gw 10.1.1.30
+ifconfig eth0 10.1.2.40/24
+route add default gw 10.1.2.30
