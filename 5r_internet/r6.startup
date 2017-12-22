@@ -1,0 +1,2 @@
+/sbin/ifconfig eth0 10.1.1.10/29 broadcast 10.1.1.15 up
+/etc/init.d/zebra start
