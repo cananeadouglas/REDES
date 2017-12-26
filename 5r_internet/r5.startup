@@ -1,1 +1,2 @@
-/sbin/ifconfig eth0 172.16.0.1/30 broadcast 172.16.0.3 up
+ifconfig eth0 172.16.0.1/30 broadcast 172.16.0.3 up
+route add default gw 10.0.0.2
