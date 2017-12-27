@@ -1,4 +1,7 @@
 ifconfig eth0 10.1.1.21/30 broadcast 10.1.1.23 up
 ifconfig eth1 10.1.1.30/30 broadcast 10.1.1.31 up
 ifconfig eth2 10.1.1.9/29 broadcast 10.1.1.15 up
+
+route add default gw 10.1.1.22
+
 /etc/init.d/zebra start

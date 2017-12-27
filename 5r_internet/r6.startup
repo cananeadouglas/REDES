@@ -1,4 +1,9 @@
 ifconfig eth0 10.1.1.10/29 broadcast 10.1.1.15 up
 ifconfig eth1 192.168.0.1/24 broadcast 192.168.0.255 up
 
+route add default gw 10.1.1.9
+
+echo "nameserver 8.8.8.8" > /etc/resolv.conf
+
+/etc/init.d/dhcp3-server start
 /etc/init.d/zebra start
