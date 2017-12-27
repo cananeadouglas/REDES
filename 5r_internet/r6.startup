@@ -1,4 +1,4 @@
 ifconfig eth0 10.1.1.10/29 broadcast 10.1.1.15 up
 ifconfig eth1 192.168.0.1/24 broadcast 192.168.0.255 up
-/etc/init.d/dhcpd3-server start
+
 /etc/init.d/zebra start
